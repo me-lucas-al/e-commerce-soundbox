@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Soundbox</title>
+    
+</head>
+<body>
+    <header>
+
+        <a href="#" class = "logo"><i class='bx bx-headphone'></i>Soundbox</a>
+
+        <ul class = "navegacao">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Tech Specs</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+
+        <div class="header-icons">
+            <i class="bx bx-cart"></i>
+            <div id="menu"> <i class='bx bx-menu'></i></div>
+        </div>
+    </header>
+
+    <section class="home">
+
+        <div class="home-img">
+            <img src="/images/product1.png" class="one">
+        </div>
+
+        <div class="home-text">
+            <h1>Wireless <br> Headphones</h1>
+            <h5>The smarter way to listen</h5>
+            <h3>$57.90</h3>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+    </section>
+
+    <div class="main">
+        <div class="row">
+            <li><img src="/images/main1.png" onclick="slider('/images/product1.png')"></li>
+        </div>
+
+        <div class="row2">
+            <li><img src="/images/main2.png" onclick="slider('/images/product2.png')"></li>
+        </div>
+
+        <div class="row3">
+            <li><img src="/images/main3.png" onclick="slider('/images/product3.png')"></li>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
